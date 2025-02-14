@@ -35,4 +35,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Hosted Link
 
-You can access the live version of the project at: [Hosted Link](https://your-hosted-link.com)
+You can access the live version of the project at: [Hosted Link](https://blox-fruits-calculator.vercel.app/)
