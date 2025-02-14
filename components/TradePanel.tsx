@@ -2,10 +2,10 @@
 
 import { motion } from "framer-motion";
 import TradeItem from "./TradeItem";
-import { sections } from "@/types/calculator";
+import { sections } from "../types/calculator";
 import FruitSelector from "./FruitSelector";
 import { useAtom } from "jotai";
-import { offerItemsAtom, requestItemsAtom } from "@/store/atom";
+import { offerItemsAtom, requestItemsAtom } from "../store/atom";
 
 interface TradePanelProps {
   title: string;

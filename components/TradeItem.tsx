@@ -1,8 +1,8 @@
 "use client";
 
-import { formatAmount } from "@/lib/utils";
-import { offerItemsAtom, requestItemsAtom } from "@/store/atom";
-import { Fruit, sections } from "@/types/calculator";
+import { formatAmount } from "../lib/utils";
+import { offerItemsAtom, requestItemsAtom } from "../store/atom";
+import { Fruit, sections } from "../types/calculator";
 import { motion } from "framer-motion";
 import { useAtom } from "jotai";
 import Image from "next/image";

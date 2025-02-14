@@ -9,10 +9,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { Fruit, sections } from "@/types/calculator";
+} from "./ui/dialog";
+import { Fruit, sections } from "../types/calculator";
 import { useAtom } from "jotai";
-import { offerItemsAtom, requestItemsAtom } from "@/store/atom";
+import { offerItemsAtom, requestItemsAtom } from "../store/atom";
 import Image from "next/image";
 
 const fruits: Fruit[] = [

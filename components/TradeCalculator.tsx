@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import TradePanel from "./TradePanel";
 
 import { useAtom } from "jotai";
-import { offerItemsAtom, requestItemsAtom } from "@/store/atom";
+import { offerItemsAtom, requestItemsAtom } from "../store/atom";
 import ValueProvider from "./ValueProvider";
 import PriceValue from "./PriceValue";
 
