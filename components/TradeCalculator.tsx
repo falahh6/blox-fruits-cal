@@ -40,9 +40,7 @@ const TradeCalculator = () => {
           <PriceValue title="Their Price" value={requestTotalPrice} />
           <PriceValue title="Price Difference" value={priceDifference} />
         </div>
-        <div className="">
-          <ValueProvider />
-        </div>
+        <ValueProvider />
         <div className="flex flex-row items-center justify-between text-center">
           <PriceValue title="Your Value" value={offerTotalValue} />
           <PriceValue title="Their Value" value={requestTotalValue} />
